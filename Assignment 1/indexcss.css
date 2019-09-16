@@ -1,0 +1,181 @@
+body{
+	
+	background-image: url("purple.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Verdana';
+	
+	/*text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; */
+}
+.fave{
+	font-weight: bold;
+}
+.credit{
+	font-style: italic;
+	
+}
+a:link{
+	
+	color: blue;
+}
+
+a:visited{
+	
+	color: blue;
+}
+
+a:hover {
+  
+   color: green;
+}
+
+a:active {
+  color: #0000FF;
+ 
+}
+
+p.intro{
+	padding: 150px;
+	
+}
+img{
+	width: 250px;
+	height:320px; 
+	border:10px;
+	border-color: black;
+	float: left;
+	padding-right: 15px;
+	
+}
+.topnav{
+	background-color: #333;
+	overflow: hidden;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.topnav a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	
+}
+.topnav a:hover{
+	background-color: #ddd;
+	color: black;
+	
+}
+.topnav label.active{
+	background-color: #4CAF50;
+	color: white;
+}
+
+.content{
+	font-family: 'Oswald', sans-serif;
+	padding: 0 0 0 50px;
+	padding-right: 15px;
+}
+
+.collapsible{
+		padding: 0px 0px;
+		color: white;
+		float: right;
+}
+.collapsible ul{
+	list-style-type: none;
+	padding: 0px 10px;
+	
+}
+
+.collapsible a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.collapsible label{
+	font-family: 'Verdana', cursive;
+	font-size: 19px;
+	display: block;
+	cursor: pointer;
+	background: url("menu_white.png");
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: left;
+	
+	padding: 10px 100px 10px 50px;
+}
+input#menu{
+	display:none;
+}
+
+.content{
+	max-height: 0;
+	overflow: hidden;
+	font-family: 'Oswald', sans-serif;
+	padding: 0 0 0 50px;
+	
+}
+input:checked ~ label{
+	background: url("x.png");
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: left;
+	
+}
+input:checked~ .content{
+	max-height: 100%;
+	
+}
+
+tr, th, td{
+	text-align: center;
+	padding-left: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 40px;
+	
+}
+th.project{
+	padding-left: 40px; 
+	padding-right: 40px;
+}
+td.project{
+	padding-left: 40px; 
+	padding-right: 40px;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+h3.web{
+	padding-left: 120px;
+}
+
+.compsci{
+	color: red;
+	font-weight: bold;
+}
+.gsu{
+	color: red;
+	font-weight: bold;
+	
+}
+.draw{
+	color: red;
+	font-weight: bold;
+	
+}
+.web_des{
+	color: red;
+	font-weight: bold;
+	
+}
